@@ -46,7 +46,7 @@ const serviceList = [
 const Services = () => {
     return (
         <div className="flex flex-col md:flex-row items-center justify-between gap-8 h-fit p-4 md:p-8">
-            {/* Image Section */}
+           
             <div className="w-full md:w-1/2 flex items-center mb-6 md:mb-0">
                 <img
                     src={serviceIMG}
@@ -55,7 +55,7 @@ const Services = () => {
                 />
             </div>
 
-            {/* Content Section */}
+           
             <div className="w-full md:w-1/2 flex flex-col gap-6">
                 <h2 className="text-3xl md:text-4xl font-bold mb-2 text-gray-600">
                     Our Services
@@ -87,7 +87,7 @@ const Services = () => {
                     </table>
                 </div>
 
-                <button className="btn btn-primary self-start mt-4">Get Started</button>
+              {/* <button className="btn btn-primary self-start mt-4">Get Started</button>   */}
             </div>
         </div>
     );

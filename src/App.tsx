@@ -6,7 +6,10 @@ import Register from './pages/Register'
 import Login from './pages/Login'
 import AboutPage from './pages/AboutPage'
 import Dashboard from './pages/dashboard/Dashboard'
+
 import Error from './components/error/Error'
+import ServicesPage from './pages/ServicesPage'
+
 
 
 function App() {
@@ -27,6 +30,10 @@ function App() {
       path: '/login',
       element: <Login />
     },
+     {
+      path: '/services',
+      element: <ServicesPage/>
+    },
     {
       path: '/dashboard',
       element: <Dashboard />,
@@ -35,14 +42,11 @@ function App() {
           path: 'main',
           element: <h1>Analytics</h1>
         },
+        
         // {
-        //   path: 'todos',
+        //   path: 'profile',
         //   element: <h1>Analytics</h1>
-        // },
-        {
-          path: 'profile',
-          element: <h1>Analytics</h1>
-        }
+        // }
       ]
     },
     {
